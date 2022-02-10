@@ -1,0 +1,89 @@
+@charset "UTF-8";
+@media screen and (max-width: 2000px) {
+  .MuiAppBar-colorPrimary {
+    background-color: #fff !important;
+  }
+}
+
+@media screen and (max-width: 669px) {
+  .MuiGrid-container {
+    display: block !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+    padding: auto !important;
+    margin: auto !important;
+    max-width: 100% !important;
+  }
+  .css-8v0fa4-MuiGrid-rootХ {
+    max-width: 100% !important;
+  }
+  .makeStyles-itemWrapper-3 {
+    display: none !important;
+  }
+  .makeStyles-indicators-4 {
+    display: none !important;
+  }
+}
+
+span {
+  color: darkcyan;
+}
+
+@media screen and (max-width: 432px) {
+  .baha {
+    display: block !important;
+  }
+  span {
+    display: none !important;
+  }
+  .css-1fvjswp {
+    display: block !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+    margin: 27px !important;
+  }
+  .logo {
+    display: block !important;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .MuiGrid-container {
+    position: relative !important;
+    display: block !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    right: 38px !important;
+    z-index: -2 !important;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .MuiGrid-container {
+    position: relative;
+    display: block !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    right: 60px !important;
+    z-index: -2 !important;
+  }
+  .loginContainers {
+    min-height: 350px !important;
+  }
+}
+
+input {
+  text-align: center !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+}
+/*# sourceMappingURL=cart.css.map */

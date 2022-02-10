@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,OAAO,CAAC,uEAAI;AACZ,AAAA,YAAY,CAAC;EACX,KAAK,EAAE,gBAAgB;EACvB,gBAAgB,EAAE,eAAe;CAClC;;AAED,AAAA,KAAK,CAAA;EACH,WAAW,EAAC,gCAAgC;EAC5C,SAAS,EAAE,eAAe;CAC3B",
+    "sources": [
+        "MyNavbar.scss",
+        "../Fonts/Fonts.scss"
+    ],
+    "names": [],
+    "file": "MyNavbar.css"
+}

@@ -1,0 +1,55 @@
+{
+  "tiket": [
+    {
+      "photo": "https://gt-news.ru/wp-content/uploads/2021/07/Tesla-Model-X-scaled.jpeg",
+      "town": "Tesla X",
+      "price": 460000,
+      "describetion": "Лучший кроссовер. Полностью электрический, двери типа «крылья сокола», полный привод, до 7 мест, панорамное лобовое стекло",
+      "id": 1
+    },
+    {
+      "photo": "https://cdn.motor1.com/images/mgl/J2z16/s1/tesla-model-y-rendering.jpg",
+      "town": "Tesla Y",
+      "price": 8000000,
+      "describetion": "Второй после Model X кроссовер от Tesla Inc. Построен на схожей с Model 3 платформе третьего поколения.",
+      "id": 3
+    },
+    {
+      "photo": "https://infosmi.net/wp-content/uploads/2021/08/19-14.jpg",
+      "town": "Tesla 3",
+      "price": 400000,
+      "describetion": "Построен на новой платформе, которая в корне отличается от Model S и Model X. Призван стать первым массовым электромобилем от Tesla Inc.",
+      "id": 4
+    },
+    {
+      "photo": "https://discover24.ru/wp-content/uploads/2016/07/6214dcd04af6b0f42b54e90a2071534e.jpg",
+      "town": "Tesla S",
+      "price": 350000,
+      "describetion": "Революционный электромобиль, призванный полностью уничтожить двигатель внутреннего сгорания и привить человечеству желание передвигаться исключительно на экологически чистом транспорте.",
+      "id": 5
+    }
+  ],
+  "comments": [
+    {
+      "comment": "хороший сайт",
+      "name": "аббас",
+      "date": "",
+      "price": null,
+      "id": 1
+    },
+    {
+      "comment": "qerwteyrliot;mn fgfdmshgahcdlxvuqwbC?BVijILQWBV?KLQWBV bljwQvb;wiuqB;IQWBC;iuWQBdxiuWQBC;iuqwBv;iuqwbviuwqbviuwqbviubqwviubqwiuvbwqiuvbqwuivbqwiubvwqv",
+      "name": "123123",
+      "date": "",
+      "price": null,
+      "id": 2
+    },
+    {
+      "comment": "qwdwqdqwdqwd",
+      "name": "xqwxwx",
+      "date": "",
+      "price": null,
+      "id": 3
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+video {
+  width: 100%;
+  background-size: cover;
+  z-index: -999;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+}
