@@ -97,7 +97,7 @@ export default function MyNavbar(props) {
                 />
               </Badge>
             </Link>
-            <Link to="/comments">
+            <Link to="/chat">
               <IconButton color="inherit" sx={{ alignItems: "center", m: "3" }}>
                 <ChatIcon
                   sx={{ color: "text.secondary" }}

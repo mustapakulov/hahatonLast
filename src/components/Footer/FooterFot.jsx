@@ -7,6 +7,7 @@ import TelegramIcon from "@mui/icons-material/Telegram";
 import SupportAgentIcon from "@mui/icons-material/SupportAgent";
 import "../HeadersHome/HeadersHome.css";
 import "../Cart/cart.css";
+import { Link } from "react-router-dom";
 
 const FooterFot = () => (
   <>
@@ -29,8 +30,8 @@ const FooterFot = () => (
             <span>Twitter</span>
           </li>
           <li>
-            <TelegramIcon sx={{ color: "text.secondary" }} />
-            <span>Telegram</span>
+            
+            <Link to="/comments">Оставить отзыв</Link>
           </li>{" "}
           <li>
             <SupportAgentIcon sx={{ color: "text.secondary" }} />
