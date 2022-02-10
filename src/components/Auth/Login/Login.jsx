@@ -14,10 +14,22 @@ import {
   Typography,
 } from "@mui/material";
 import { Box } from "@mui/system";
+import { GoogleAuthProvider, signInWithPopup } from "@firebase/auth";
+import { auth } from "../../../Firebase";
 const color = blue[50];
 export default function Login() {
   const { signIn } = React.useContext(tiketContext);
   const navigate = useNavigate();
+
+  const provider = new GoogleAuthProvider()
+  const authGoogle = async () => {
+      try {
+          const res = await signInWithPopup(auth, provider)
+      } catch (error) {
+          console.log(error);
+      }
+  }
+
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -87,6 +99,9 @@ export default function Login() {
                       Регистрация
                     </Button>
                   </Link>{" "}
+                  <Button onClick={ authGoogle}>
+                    Google
+                  </Button>
                 </Grid>
               </>
             </div>

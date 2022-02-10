@@ -13,6 +13,7 @@ import MyNavbar from "./components/MyNavbar/MyNavbar";
 import Home from "./components/Home/Home";
 import Favorites from "./components/Favorites/Favorites";
 import Comments from "./components/Comments/Commetns";
+import Chat from "./components/Chat/Chat";
 
 const MyRoutes = () => {
   return (
@@ -32,6 +33,7 @@ const MyRoutes = () => {
           <Route path="/comments" element={<Comments />} />
           <Route path="/credit" element={<Creditcard />} />
           <Route path="/favorite" element={<Favorites />} />
+          <Route path="/chat" element={<Chat />}/>
         </Routes>
       </BrowserRouter>
     </MyContextProvider>
