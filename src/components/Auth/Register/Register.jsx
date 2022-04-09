@@ -1,7 +1,6 @@
 import * as React from "react";
 import { Link } from "react-router-dom";
 import "../css/register.css";
-
 import { useNavigate } from "react-router-dom";
 import { tiketContext } from "../../MyContext/MyContext";
 import { blue } from "@mui/material/colors";

@@ -148,7 +148,7 @@ const MyContext = (props) => {
   const changeFavoriteCount = (count, id) => {
     let favorite = JSON.parse(localStorage.getItem("favorite"));
     favorite.products = favorite.products.map((elem) => {
-      if (elem.item.id == id) {
+      if (elem.item.id === id) {
         elem.count = count;
         elem.subPrice = calcSubPrice(elem);
       }
@@ -324,7 +324,7 @@ const MyContext = (props) => {
       }
       return elem;
     });
-    
+
     localStorage.setItem("cart", JSON.stringify(cart));
     getCartLength();
     getCart();

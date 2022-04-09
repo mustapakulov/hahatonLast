@@ -28,10 +28,6 @@ export default function DisplayCard({ item }) {
 
  
 
-  //   changeColor () {
-  //   this.setState({ red: !this.state.red })
-  // }
-
   return (
     <Card sx={{ maxWidth: 1200, minWidth: 300, margin: 2 }}>
       <CardMedia

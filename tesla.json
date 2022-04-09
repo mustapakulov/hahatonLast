@@ -3,7 +3,7 @@
     {
       "photo": "https://gt-news.ru/wp-content/uploads/2021/07/Tesla-Model-X-scaled.jpeg",
       "town": "Tesla X",
-      "price": 460000,
+      "price": "1",
       "describetion": "Лучший кроссовер. Полностью электрический, двери типа «крылья сокола», полный привод, до 7 мест, панорамное лобовое стекло",
       "id": 1
     },
@@ -38,18 +38,32 @@
       "id": 1
     },
     {
-      "comment": "qerwteyrliot;mn fgfdmshgahcdlxvuqwbC?BVijILQWBV?KLQWBV bljwQvb;wiuqB;IQWBC;iuWQBdxiuWQBC;iuqwBv;iuqwbviuwqbviuwqbviubqwviubqwiuvbwqiuvbqwuivbqwiubvwqv",
-      "name": "123123",
-      "date": "",
-      "price": null,
-      "id": 2
-    },
-    {
-      "comment": "qwdwqdqwdqwd",
-      "name": "xqwxwx",
+      "comment": "1231231231231",
+      "name": "улан",
       "date": "",
       "price": null,
       "id": 3
+    },
+    {
+      "comment": "привет",
+      "name": "баха",
+      "date": "",
+      "price": null,
+      "id": 4
+    },
+    {
+      "comment": "привет Алия",
+      "name": "js",
+      "date": "",
+      "price": null,
+      "id": 5
+    },
+    {
+      "comment": "привет ",
+      "name": "мама",
+      "date": "",
+      "price": null,
+      "id": 6
     }
   ]
 }

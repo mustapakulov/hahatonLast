@@ -11,6 +11,11 @@ import "../Comments/Comments.css";
 
 export default function CommentCard({ item }) {
   const { deleteComment, useAuth, getComment } = React.useContext(tiketContext);
+  function ucFirst(str) {
+    if (!str) return str;
+  
+    return str[0].toUpperCase() + str.slice(1);
+  }
 
   const currentUser = useAuth();
   let icons = (
@@ -43,25 +48,25 @@ export default function CommentCard({ item }) {
           color="darkblue"
           fontSize="16px"
         >
-          {item.comment}
+          {ucFirst(item.comment)}
         </Typography>
         <div className="titleName">
-          <p fontSize="18px">имя</p>
+          <p fontSize="18px" style={{ paddingRight: "10px" }}>
+            Имя:
+          </p>
           <Typography
             marginBottom="7px"
             variant="succsess"
             color="darkblue"
             fontSize="16px"
-            // height="40px"
             align="right"
+            
           >
-            {item.name}
+            {ucFirst(item.name)}
           </Typography>
         </div>
         <CardContent>{icons}</CardContent>
       </CardContent>
-
-     
     </Card>
   );
 }

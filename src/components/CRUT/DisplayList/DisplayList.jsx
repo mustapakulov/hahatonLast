@@ -116,8 +116,7 @@ const DisplayList = () => {
       </div>
       <Grid
         container
-        // spacing={{ xs: 2, }}
-        // columns={{ xs: 4, sm: 8, md: 12 }}
+  
       >
         {tiket ? (
           tiket.map((item, index) => (
